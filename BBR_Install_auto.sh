@@ -75,8 +75,8 @@ function Coloseselinux() {
 
 function Yumupdate() {
   #升级系统软件
-  Logprefix;echo ${CMSG}'[Info]升级系统软件,可能需要花费较长时间，请耐心等待'${CEND}
-  yum -y update
+  #Logprefix;echo ${CMSG}'[Info]升级系统软件,可能需要花费较长时间，请耐心等待'${CEND}
+  #yum -y update
 }
 
 function Installbasesoftware() {
